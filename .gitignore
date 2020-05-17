@@ -1,0 +1,7 @@
+.vs
+.vscode
+Temp
+Logs
+Library
+.DS_Store
+*.sln
