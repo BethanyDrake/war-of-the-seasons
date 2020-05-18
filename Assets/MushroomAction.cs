@@ -39,4 +39,8 @@ public class MushroomAction : Action
         }
 
     }
+
+    public override void Stop() {
+        //reappear
+    }
 }

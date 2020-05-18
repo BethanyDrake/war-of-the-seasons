@@ -45,4 +45,8 @@ public class SunAction : Action
         }
 
     }
+
+    public override void Stop() {
+        //disable aura
+    }
 }

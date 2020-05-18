@@ -17,6 +17,9 @@ public class FlowerAction : Action
     float cooldown = 1;
     bool firing = false;
     float timeSinceFired = 0;
+    public override void  Stop() {
+        particalSystem.Stop();
+    }
     void Update()
     {
 

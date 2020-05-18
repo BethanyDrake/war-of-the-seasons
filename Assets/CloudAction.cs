@@ -10,7 +10,11 @@ public class CloudAction : Action
     void Start()
     {
          particalSystem.gameObject.active = true;
-            particalSystem.Stop();
+        particalSystem.Stop();
+    }
+
+    public override void Stop() {
+        particalSystem.Stop();
     }
 
     // Update is called once per frame
