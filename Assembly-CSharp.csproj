@@ -45,15 +45,15 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Action.cs" />
-     <Compile Include="Assets\CharacterSelection.cs" />
-     <Compile Include="Assets\CloudAction.cs" />
-     <Compile Include="Assets\FlowerAction.cs" />
-     <Compile Include="Assets\Hitbox.cs" />
-     <Compile Include="Assets\Move.cs" />
-     <Compile Include="Assets\MushroomAction.cs" />
-     <Compile Include="Assets\RandomMovement.cs" />
-     <Compile Include="Assets\SunAction.cs" />
+     <Compile Include="Assets\Scripts\Actions\Action.cs" />
+     <Compile Include="Assets\Scripts\Actions\CloudAction.cs" />
+     <Compile Include="Assets\Scripts\Actions\FlowerAction.cs" />
+     <Compile Include="Assets\Scripts\Actions\MushroomAction.cs" />
+     <Compile Include="Assets\Scripts\Actions\SunAction.cs" />
+     <Compile Include="Assets\Scripts\CharacterSelection.cs" />
+     <Compile Include="Assets\Scripts\Hitbox.cs" />
+     <Compile Include="Assets\Scripts\Move.cs" />
+     <Compile Include="Assets\Scripts\RandomMovement.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/bethany/Desktop/War of the Seasons/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
