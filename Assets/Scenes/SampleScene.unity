@@ -353,7 +353,7 @@ Transform:
   m_GameObject: {fileID: 123766325}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: -0.5, z: 1}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 224080645}
   m_RootOrder: 0
@@ -397,7 +397,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 9b90c5702346744a6b48c0b39d689d1e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 98ae7c0bbe40e4134bbe94cd6b764ef8, type: 3}
   m_Color: {r: 0.7333717, g: 0.6273585, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -557,7 +557,7 @@ Transform:
   m_GameObject: {fileID: 411679968}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: -0.5, z: 1}
-  m_LocalScale: {x: 3, y: 3, z: 1}
+  m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children: []
   m_Father: {fileID: 1807121494}
   m_RootOrder: 0
@@ -601,7 +601,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 9b90c5702346744a6b48c0b39d689d1e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 98ae7c0bbe40e4134bbe94cd6b764ef8, type: 3}
   m_Color: {r: 1, g: 0.96462584, b: 0.514151, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -10507,17 +10507,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcb60052b3a784d8f9190f6c40c9c037, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  summer: {fileID: 1807121497}
-  winter: {fileID: 1908725452}
-  spring: {fileID: 770360954}
-  autumn: {fileID: 224080643}
-  summerAction: {fileID: 1807121496}
-  winterAction: {fileID: 1908725455}
+  summer: {fileID: 1807121495}
+  winter: {fileID: 1908725451}
+  spring: {fileID: 770360949}
+  autumn: {fileID: 224080641}
   particalSystems:
   - {fileID: 537515942}
   - {fileID: 572777776}
-  springAction: {fileID: 770360953}
-  autumnAction: {fileID: 224080642}
   buttons:
   - {fileID: 1728701625}
   - {fileID: 1048187987}
